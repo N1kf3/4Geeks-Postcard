@@ -6,6 +6,7 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	margin-top: 15%;
 }
 .postcard-header {
 	display: flex;
@@ -35,6 +36,10 @@ input {
 }
 .postcard-footer {
 	text-align: center;
+}
+
+.Send:hover {
+	cursor: pointer;
 }
 button {
 	background-color: lightgray;
